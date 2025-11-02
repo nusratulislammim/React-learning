@@ -8,9 +8,9 @@ const AppRouter = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/day-01" />} />
-        <Route path="/day-01/*" element={<Day01 />} />
-        <Route path="/day-02/*" element={<Day02 />} />
-        <Route path="/day-03/*" element={<Day03 />} />
+        <Route path="/day-01" element={<Day01 />} />
+        <Route path="/day-02" element={<Day02 />} />
+        <Route path="/day-03" element={<Day03 />} />
       </Routes>
     </BrowserRouter>
   );

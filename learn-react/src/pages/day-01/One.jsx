@@ -7,4 +7,4 @@ function One(){
   )
 }
 
-export default App
+export default One

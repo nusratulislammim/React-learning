@@ -1,14 +1,11 @@
-import One from './One';
-import Header from '../../components/layout/Header';
-import Footer from '../../components/layout/Footer';
+import React from "react";
+import One from "./One";
 
 const Day01 = () => {
   return (
     <div>
-      <Header />
-      <h2>Day 01</h2>
-      <One />
-      <Footer />
+      <h2>Day 01 Exercises</h2>
+      <One name="Mim" />
     </div>
   );
 };
