@@ -1,9 +1,15 @@
 import React from "react";
 
-function Greeting (props){
+function three (props){
     
     const Time = new Date().toLocaleDateString();
-    const greetMsg = props.name?`Hello, ${props.name}!`:"Hello, World!";
+    let greetMsg;
+    if(props.name){
+        greetMsg = `Hello, ${props.name}!`;
+    }
+    else{
+        greetMsg = "Hello, World!";
+    }
 
     return(
         <div>
@@ -14,4 +20,4 @@ function Greeting (props){
     );
 }
 
-export default Greeting;
+export default three;
