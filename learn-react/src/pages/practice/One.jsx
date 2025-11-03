@@ -1,11 +1,13 @@
+import React from "react";
 
-function RandomNum(){
-    let num = Math.floor(Math.random()*100);
+function One({info}){
     return(
         <div>
-            <h2>random number: {num}</h2>
+            <h3>Name: {info.name} </h3>
+            <h3>Age: {info.age}</h3>
+            <h3>Department: {info.department}</h3>
         </div>
     );
 };
 
-export default RandomNum;
+export default One;
