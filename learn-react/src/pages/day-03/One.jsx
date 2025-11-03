@@ -4,4 +4,4 @@ function RandomNum(){
 }
 
 
-export default One;
+export default RandomNum;

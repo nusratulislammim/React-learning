@@ -1,17 +1,8 @@
 import React from "react";
-import Day01 from "./pages/day-01";
-import Day02 from "./pages/day-02";
-import Day03 from "./pages/day-03";
+import AppRouter from "./router/AppRouter";
 
 function App() {
-  return (
-    <div>
-      <Day01 />
-      <Day02 />
-      <Day03 />
-      d
-    </div>
-  );
+  return <AppRouter />;
 }
 
 export default App;

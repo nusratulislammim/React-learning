@@ -1,4 +1,5 @@
 import React from "react";
+import One from "../day-04/One";
 
 const Day04=()=>{
     const student = {
