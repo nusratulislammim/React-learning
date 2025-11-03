@@ -1,12 +1,16 @@
 import React from "react";
 import One from "../practice/One";
-import Two from "../practice/Two";
 
 function Practice(){
-    return (
+    const student ={
+        name:"Nusratul Islam Meem",
+        age: 21,
+        department: "CSE",
+    }
+    return(
         <div>
-            <One/>
-            <Two number="5" color="green"/>  
+            <h2>Day 04: Components and Props</h2>
+            <One info={student}/>
         </div>
     );
 };
