@@ -1,5 +1,5 @@
 import React from "react";
-import One from "..day-01/One";
+import One from "../day-01/One";
 
 const Day01 = () => {
   return (
