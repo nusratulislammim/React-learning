@@ -1,13 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 
-function One({info}){
+function ClickMe (){
+    const [text, setText] = useState("Before Click");
+
+    function handleClick(){
+        setText("Button has been clicked");
+    }
     return(
         <div>
-            <h3>Name: {info.name} </h3>
-            <h3>Age: {info.age}</h3>
-            <h3>Department: {info.department}</h3>
+            <h2>click the button</h2>
+            <h3>{text}</h3>
+            <button onClick={handleClick}>Click Me</button>
+
         </div>
     );
 };
 
-export default One;
+export default ClickMe;
