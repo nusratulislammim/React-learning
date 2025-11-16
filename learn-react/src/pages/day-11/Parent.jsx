@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ChildA from "./Two";
-import ChildB from "./three";
+import ChildA from "./ChildA";
+import ChildB from "./ChildB";
 
 function Parent(){
     const [text, setText] = useState("");

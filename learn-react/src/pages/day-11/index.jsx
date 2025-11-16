@@ -1,5 +1,5 @@
 import React from "react";
-import One from "../day-11/One";
+import One from "./Parent";
 
 function Day11 (){
     return(
