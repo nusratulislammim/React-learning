@@ -19,6 +19,20 @@ import Day18 from "../pages/day-18";
 import Day19 from "../pages/day-19";
 import Day20 from "../pages/day-20";
 import Day21 from "../pages/day-21";
+import Day22 from "../pages/day-22";
+import Day23 from "../pages/day-23";
+import Day24 from "../pages/day-24";
+import Day25 from "../pages/day-25";
+import Day26 from "../pages/day-26";
+import Day27 from "../pages/day-27";
+import Day28 from "../pages/day-28";
+import Day29 from "../pages/day-29";
+import Day30 from "../pages/day-30";
+import Day31 from "../pages/day-31";
+
+
+
+
 
 import Practice from "../pages/practice";
 import BrandPage from "../pages/projects/BrandPage";
@@ -48,6 +62,17 @@ const AppRouter = () => {
         <Route path="/day-19" element={<Day19 />} />
         <Route path="/day-20" element={<Day20 />} />
         <Route path="/day-21" element={<Day21 />} />
+        <Route path="/day-22" element={<Day22 />} />
+        <Route path="/day-23" element={<Day23 />} />
+        <Route path="/day-24" element={<Day24 />} />
+        <Route path="/day-25" element={<Day25 />} />
+        <Route path="/day-26" element={<Day26 />} />
+        <Route path="/day-27" element={<Day27 />} />
+        <Route path="/day-28" element={<Day28 />} />
+        <Route path="/day-29" element={<Day29 />} />
+        <Route path="/day-30" element={<Day30 />} />
+        <Route path="/day-31" element={<Day31 />} />
+
 
 
 
